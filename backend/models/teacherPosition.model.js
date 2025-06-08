@@ -17,10 +17,12 @@ const teacherPositionSchema = new mongoose.Schema({
 	isActive: {
 		type: Boolean,
 		default: true,
+		required: true,
 	},
 	isDeleted: {
 		type: Boolean,
 		default: false,
+		required: true,
 	},
 });
 
