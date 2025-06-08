@@ -47,6 +47,7 @@ const teacherSchema = new mongoose.Schema({
 	},
 	endDate: {
 		type: Date,
+		required: true,
 	},
 	teacherPositionsId: [
 		{
