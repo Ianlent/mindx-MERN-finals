@@ -48,6 +48,7 @@ export const getAllTeachers = async (req, res) => {
 			page: parsedPage,
 			limit: parsedLimit,
 			totalPages: totalPages,
+			totalRecords: total_records,
 		});
 	} catch (error) {
 		console.error("Error fetching teachers:", error); // Log the full error for debugging
